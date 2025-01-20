@@ -1,0 +1,42 @@
+name: agro
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.5+3 # For selecting images from gallery or camera
+  geolocator: ^9.0.1 # If location data is required in the project
+  http: ^1.2.2 # For making HTTP requests to the API
+  firebase_core: ^2.3.0 # Firebase core setup (if needed for the project)
+  firebase_auth: ^4.3.0 # Firebase authentication (optional)
+  provider: ^6.0.3 # For state management
+  cloud_firestore: ^4.5.0 # Firebase Firestore database (optional)
+  font_awesome_flutter: ^10.0.0 # For icons
+  flutter_localizations: # Required for localization support
+    sdk: flutter
+  intl: ^0.19.0 # For internationalization
+  path_provider: ^2.0.11 # To handle file storage paths (if required)
+  permission_handler: ^11.3.1 # To request permissions for camera/gallery access
+  fluttertoast: ^8.0.9 # For toast messages (optional, but useful for user notifications)
+  file_picker: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.3.0 # To enable code generation
+  flutter_gen: ^4.0.0 # For localization code generation
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/l10n/ # Add the localization folder for assets
+    - assets/ # Add folder for storing images/models
