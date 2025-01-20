@@ -38,4 +38,10 @@ AgroDoc is a Flutter-based platform designed to assist Indian farmers in improvi
 - **Database:** MongoDB
 - **AI/ML Models:** Integrated for crop and soil analysis
 
+#### 📄 Documents
+- [Report](Documents/Report.pdf)
+- [Presentation](Documents/Presentation.pptx)
+- [Paper](Documents/Paper.pdf)
+
+
 
