@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # agro
 
 A new Flutter project.
